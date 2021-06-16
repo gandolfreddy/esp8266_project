@@ -18,6 +18,5 @@ def connect_ap(ssid, pwd):
 
     print("network config:", wlan.ifconfig())
 
-
-# connect_ap("MicroPython-683d27", "micropythoN")
+    
 connect_ap("MicroPython-2163a5", "micropythoN")
